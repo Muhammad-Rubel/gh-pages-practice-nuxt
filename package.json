@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "deploy": "npx gh-pages -d .gh-pages-practice-nuxt/dist"
+  },
+  "devDependencies": {
+    "nuxt": "^3.1.2"
+  },
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
