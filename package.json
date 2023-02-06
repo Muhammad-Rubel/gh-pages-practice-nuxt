@@ -6,7 +6,7 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
-    "deploy": "npx gh-pages -d gh-pages-practice-nuxt/dist"
+    "deploy": "npx gh-pages -d ./dist"
   },
   "devDependencies": {
     "nuxt": "^3.1.2"
